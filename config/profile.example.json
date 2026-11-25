@@ -1,0 +1,15 @@
+{
+  "language": "en",
+  "identity": { "first_name": "Ada", "last_name": "Example", "preferred_name": "", "pronouns": "", "email": "ada@example.com", "phone": "+1-555-0100", "linkedin": "https://www.linkedin.com/in/example", "github": "", "website": "" },
+  "address": { "street": "1 Example Street", "unit": "", "city": "Springfield", "region": "Illinois", "postal_code": "62701", "country": "United States" },
+  "education": [{ "school": "Example University", "degree": "Bachelor of Arts", "level": "Bachelor's Degree", "field": "Geography", "gpa": "", "start": "2020-09", "end": "2024-05" }],
+  "experience": [{ "employer": "Example Corp", "title": "Planning Assistant", "start": "2024-06", "end": "", "location": "Springfield" }],
+  "work_authorization": { "country": "United States", "authorized": "", "needs_sponsorship_now_or_future": "", "status_note": "", "never_claim": [] },
+  "declarations": { "over_18": "", "accepts_background_check": "", "accepts_drug_test": "", "worked_here_before": "", "relatives_at_company": "", "has_non_compete": "", "criminal_record": "", "security_clearance": "" },
+  "preferences": { "earliest_start": "", "salary": "", "willing_to_relocate": "", "how_did_you_hear": "Company website" },
+  "self_id": { "gender": "Decline", "hispanic_or_latino": "Decline", "race": "Decline", "veteran": "Decline", "disability": "Decline" },
+  "resumes": { "default": "resumes/resume.pdf" },
+  "files": { "transcript": "", "cover_letter": "" },
+  "facts": [],
+  "consents": { "privacy_policy": false, "ai_use_policy": false, "certify_truthful": false, "arbitration": false, "marketing": false }
+}

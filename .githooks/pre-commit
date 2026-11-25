@@ -1,0 +1,2 @@
+#!/bin/sh
+npm run --silent privacy-check && npm test --silent >/dev/null

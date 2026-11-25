@@ -1,0 +1,47 @@
+{
+  "name": "job-apply-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A local, human-in-the-loop job application agent you set up by talking to your AI assistant.",
+  "keywords": [
+    "ai-agent",
+    "job-search",
+    "automation",
+    "playwright",
+    "human-in-the-loop",
+    "privacy-first"
+  ],
+  "homepage": "https://github.com/jfridzon/Job-Apply-Agent#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfridzon/Job-Apply-Agent.git"
+  },
+  "bugs": "https://github.com/jfridzon/Job-Apply-Agent/issues",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "doctor": "node src/run/doctor.mjs",
+    "discover": "node src/discover/discover.mjs",
+    "sites": "node src/discover/sites.mjs",
+    "leads": "node src/discover/leads.mjs",
+    "apply": "node src/apply/apply.mjs",
+    "finish": "node src/apply/finish.mjs",
+    "review": "node src/review/server.mjs",
+    "inbox": "node src/mail/inbox.mjs",
+    "digest": "node src/mail/digest.mjs",
+    "night": "node src/run/night.mjs",
+    "guard": "node src/run/guard.mjs",
+    "budget": "node src/run/budget.mjs",
+    "browser": "node src/run/open-browser.mjs",
+    "demo": "node demo/demo.mjs",
+    "test": "node --test test/*.test.mjs",
+    "privacy-check": "node scripts/privacy-check.mjs",
+    "hooks": "git config core.hooksPath .githooks"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}

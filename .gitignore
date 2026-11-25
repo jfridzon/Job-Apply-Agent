@@ -1,0 +1,12 @@
+# Everything personal stays on your computer
+data/
+resumes/
+chrome-profile/
+config/*.json
+!config/*.example.json
+*.pdf
+.env*
+
+node_modules/
+*.log
+.DS_Store

@@ -1,0 +1,16 @@
+{
+  "boards": { "greenhouse": [], "lever": [], "ashby": [], "workable": [], "recruitee": [], "smartrecruiters": [], "workday": [] },
+  "feeds": { "remotive": { "enabled": false, "queries": [] }, "arbeitnow": { "enabled": false, "max_pages": 2 } },
+  "sites": [
+    {
+      "name": "example-community-board",
+      "enabled": false,
+      "terms_checked": false,
+      "search_url": "https://jobs.example.com/search?q={query}",
+      "queries": ["gis analyst"],
+      "link_pattern": "^https://jobs\\.example\\.com/job/\\d+",
+      "signed_out": "/login",
+      "max_per_run": 40
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "time_zone": "UTC",
+  "quiet_hours": [],
+  "pause_file": "",
+  "max_per_run": 30,
+  "finish_wait_minutes": 30,
+  "review_port": 8765,
+  "browser": { "port": 9333, "max_load": 12 },
+  "budget": { "weekly_ceiling": 90, "window_ceiling": 95, "reserve_per_day": 8, "runs_per_day": 1 },
+  "email": { "enabled": false, "to": "", "connector": "" }
+}

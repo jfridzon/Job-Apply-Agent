@@ -1,0 +1,18 @@
+{
+  "titles_include": ["\\bplanner\\b", "\\bgis\\b", "\\bcoordinator\\b"],
+  "titles_exclude": ["\\b(senior|principal|director)\\b", "\\bintern(ship)?s?\\b"],
+  "companies_exclude": [],
+  "locations_include": ["\\bremote\\b", "springfield"],
+  "locations_exclude": [],
+  "text_exclude": [{ "pattern": "commission[- ]only|100% commission", "why": "commission-only pay" }],
+  "text_require_any": [],
+  "unsure_when_missing": [],
+  "max_years": 3,
+  "blocked_work_statuses": [],
+  "tracks": [{ "id": "gis", "pattern": "\\bgis\\b|mapping" }],
+  "score": [
+    { "pattern": "\\bgis\\b", "points": 25, "why": "the work you like most" },
+    { "in": "company", "pattern": "^example city$", "points": 20, "why": "dream employer" },
+    { "in": "text", "pattern": "field work", "points": 5, "why": "field work" }
+  ]
+}
